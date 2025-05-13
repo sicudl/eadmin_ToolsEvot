@@ -1,0 +1,21 @@
+﻿"[ELECTION]","PTGAS-L-DL","06-20-2023:09:00:00","11-17-2023:12:00:00","-1","false","true","false","https://vota.udl.cat/","https://vota.udl.cat/manual.php",,,"GENERIC","1","false","false"
+"[LOCALES]","ca"
+"[MESSAGE]","PTGAS - Laboral"
+"[MESSAGE]",
+"[DISTRICTS]","District1","EPS","PTGAS"
+"[MULTIPLE_CHOICE]","CHECKBOX_VERTICAL","false","0","1","1","NO","NO",,,"90","360","220","false","0","false","false","false","CUSTOM","CLOSED_LISTS","PTGAS-L-DL"
+"[MESSAGE]","Candidatura"
+"[MESSAGE]",
+"[MESSAGE]",
+"[MESSAGE]","Vot en blanc"
+"[LIST]","PTGAS-L-DL","CLOSED","0","false","false","0","1",,,,,,,
+"[MESSAGE]","PTGAS - Laboral"
+"[CANDIDATE_LIST]","0","BASE","false","false",,,,,"candidat001",,
+"[MESSAGE]","Candidat 001"
+"[MESSAGE]",
+"[CANDIDATE_LIST]","0","BASE","false","false",,,,,"candidat002",,
+"[MESSAGE]","Candidat 002"
+"[MESSAGE]",
+"[CANDIDATE_LIST]","0","BASE","false","false",,,,,"candidat003",,
+"[MESSAGE]","Candidat 001"
+"[MESSAGE]",

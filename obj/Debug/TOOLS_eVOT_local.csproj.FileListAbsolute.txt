@@ -1,0 +1,14 @@
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\bin\Debug\formats\TotsElegibles_candidat.txt
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\bin\Debug\formats\TotsElegibles_cap.txt
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\bin\Debug\formats\TotsElegibles_subGrup.txt
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\bin\Debug\TOOLS_eVOT.exe
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\bin\Debug\TOOLS_eVOT.pdb
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\bin\Debug\ConectorLDAP.dll
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\bin\Debug\MultiTools.dll
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\bin\Debug\RecursosProgramacio.dll
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT_local.csprojResolveAssemblyReference.cache
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT.Form1.resources
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT.Properties.Resources.resources
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT_local.csproj.GenerateResource.Cache
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT.exe
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT.pdb

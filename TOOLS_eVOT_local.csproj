@@ -53,6 +53,15 @@
     <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ConectorLDAP">
+      <HintPath>bin\ConectorLDAP.dll</HintPath>
+    </Reference>
+    <Reference Include="MultiTools">
+      <HintPath>bin\MultiTools.dll</HintPath>
+    </Reference>
+    <Reference Include="RecursosProgramacio">
+      <HintPath>bin\RecursosProgramacio.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -116,20 +125,6 @@
     <Content Include="formats\TotsElegibles_subGrup.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\EntitatRegistre\ERdp\ConectorLDAP\ConectorLDAP.csproj">
-      <Project>{ba5922de-6d88-4867-ab47-7d1860cb62b9}</Project>
-      <Name>ConectorLDAP</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\RecursosProgramacio\RecursosProgramacio.csproj">
-      <Project>{7286be89-a907-44db-a43a-3ca4f3fa0537}</Project>
-      <Name>RecursosProgramacio</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\ToolsMultiplataforma\MultiTools.csproj">
-      <Project>{d8e1a1b1-4c41-44bc-8cb4-2c6c010538b4}</Project>
-      <Name>MultiTools</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
