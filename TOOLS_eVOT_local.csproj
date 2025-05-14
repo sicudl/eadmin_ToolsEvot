@@ -59,6 +59,10 @@
     <Reference Include="MultiTools">
       <HintPath>bin\MultiTools.dll</HintPath>
     </Reference>
+    <Reference Include="Novell.Directory.Ldap, Version=2.1.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Novell.Directory.Ldap.dll</HintPath>
+    </Reference>
     <Reference Include="RecursosProgramacio">
       <HintPath>bin\RecursosProgramacio.dll</HintPath>
     </Reference>

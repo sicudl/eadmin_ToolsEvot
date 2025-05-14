@@ -232,7 +232,12 @@ namespace TOOLS_eVOT
                         //hab2,48052783X,HÈCTOR,ABAD,BOLAÑOS,hab2@alumnes.udl.cat
                         //imunoz@udl.cat,Isaac,Muñoz,Bringué,,1.0
 //                        DadesItemVotantCens = (string)camps[3] + "," + (string)camps[1] + "," + (string)camps[2] + ",,1.0";
-
+                        
+                        //hab2,48052783X,HÈCTOR,ABAD,BOLAÑOS,hab2@alumnes.udl.cat
+                        //imunoz@udl.cat,Isaac,Muñoz,Bringué,,1.0
+                        DadesItemVotantCens = (string)camps[3] + "," + (string)camps[1] + "," + (string)camps[2] + ",,1.0";
+                         if (usrPass != null)
+                            {
 
                         if (usrPass =="***KK***") // COMPTE BLOQUEJAT!<2015 //< 9)// == "") //"{crypt}26hCbjHiN7LZo")
                             {
@@ -253,7 +258,16 @@ namespace TOOLS_eVOT
                             //ActiveVoters.Add(dni, Valor); //DNI;cognoms;etc...
                             //2025 invote 
                             ActiveVoters.Add(dni, DadesItemVotantCens);
-
+                            }
+                         else
+                         {
+                             DadesItemVotantCens = (string)registreTrobat["uid"] + "@udl.cat" + "," + DadesItemVotantCens;
+                             if (registreTrobat.ContainsKey("accountStatus"))
+                             {
+                                 if ((string)(registreTrobat["accountStatus"]) == "ACTIU")
+                                     ActiveVoters.Add(dni, DadesItemVotantCens);
+                             }
+                         }
                         /*
                         if (registreTrobat.ContainsKey("accountStatus"))
                             {
@@ -859,7 +873,7 @@ namespace TOOLS_eVOT
 
         private void carregarToolStripMenuItem1_Click(object sender, EventArgs e)
             {
-            System.IO.Directory.CreateDirectory(System.IO.Directory.GetCurrentDirectory() + "//input");
+                System.IO.Directory.CreateDirectory(System.IO.Directory.GetCurrentDirectory() + "//input");
             System.IO.Directory.CreateDirectory(System.IO.Directory.GetCurrentDirectory() + "//output");
             obreINput.InitialDirectory = System.IO.Directory.GetCurrentDirectory();
             obreINput.FileName = "*.csv";
