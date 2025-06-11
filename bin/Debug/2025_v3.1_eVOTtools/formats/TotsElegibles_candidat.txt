@@ -1,0 +1,3 @@
+﻿"[CANDIDATE_LIST]","0","BASE","false","false",,,,,"@candidatOrdre",,
+"[MESSAGE]","@NomComplet"
+"[MESSAGE]",

@@ -80,7 +80,7 @@ namespace TOOLS_eVOT
                         string DadesItemVotantCens = "";
                         //hab2,48052783X,HÈCTOR,ABAD,BOLAÑOS,hab2@alumnes.udl.cat
                         //imunoz@udl.cat,Isaac,Muñoz,Bringué,,1.0
-                        DadesItemVotantCens = (string)camps[3] + "," + (string)camps[1] + "," + (string)camps[2] + ",,1.0";
+                        DadesItemVotantCens = (string)camps[3] + " " + (string)camps[1] + " " + (string)camps[2] + ",,1.0";
 
                         if (usrPass != null)
                             {
@@ -207,7 +207,7 @@ namespace TOOLS_eVOT
                 string DadesItemVotantCens = "";
                 //hab2,48052783X,HÈCTOR,ABAD,BOLAÑOS,hab2@alumnes.udl.cat
                 //imunoz@udl.cat,Isaac,Muñoz,Bringué,,1.0
-                DadesItemVotantCens = (string)camps[3] + "," + (string)camps[1] + "," + (string)camps[2] + ",,1.0";
+                DadesItemVotantCens = (string)camps[3] + " " + (string)camps[1] + " " + (string)camps[2] + ",,1.0";
 
                 //Filtre = "(&(uid=k4371605))(objectClass=posixAccount)";
                 if (uidBuscar.Length > 0)

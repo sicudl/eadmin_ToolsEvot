@@ -26,3 +26,4 @@ C:\Compartida\repo_Projectes\EVOT\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT.Properti
 C:\Compartida\repo_Projectes\EVOT\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT_local.csproj.GenerateResource.Cache
 C:\Compartida\repo_Projectes\EVOT\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT.exe
 C:\Compartida\repo_Projectes\EVOT\eadmin_ToolsEvot\obj\Debug\TOOLS_eVOT.pdb
+C:\Compartida\Repo_Projectes\eadmin_ToolsEvot\bin\Debug\Novell.Directory.Ldap.dll

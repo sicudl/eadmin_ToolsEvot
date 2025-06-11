@@ -1,0 +1,12 @@
+﻿"[ELECTION]","@AliesEleccio","06-20-2023:09:00:00","11-17-2023:12:00:00","-1","false","true","false","https://vota.udl.cat/","https://vota.udl.cat/manual.php",,,"GENERIC","@LlocsACobrir","false","false"
+"[LOCALES]","ca"
+"[MESSAGE]","@NomAleccio"
+"[MESSAGE]",
+"[DISTRICTS]","@District","District1"
+"[MULTIPLE_CHOICE]","CHECKBOX_VERTICAL","false","0","0","@LlocsACobrir","NO","NO",,,"90","360","220","false","0","false","false","false","CUSTOM","OPEN_LISTS","@AliesEleccio"
+"[MESSAGE]","Candidatura"
+"[MESSAGE]","@LlocsACobrir llocs a cobrir"
+"[MESSAGE]","Marqueu candidats/es de la PAPERETA fins al màxim de llocs a cobrir o no marqueu cap candidat per vot en blanc"
+"[MESSAGE]","Vot en blanc"
+"[LIST]","@AliesEleccio","OPEN","0","false","false","0","@LlocsACobrir",,,,,,,
+"[MESSAGE]","@NomAleccio"
